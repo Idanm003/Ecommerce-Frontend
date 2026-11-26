@@ -1,0 +1,52 @@
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.signIn {
+  max-width: 420px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 0.6rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.signIn h1 {
+  margin-bottom: 1rem;
+}
+
+.signIn a,
+.fallback a {
+  color: var(--orange);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.fallback {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 0.6rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.errmsg {
+  background-color: #fdecea;
+  color: #b3261e;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.successmsg {
+  background-color: #edf7e6;
+  color: #3b6e13;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}

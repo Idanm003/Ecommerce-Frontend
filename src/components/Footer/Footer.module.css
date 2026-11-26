@@ -1,0 +1,76 @@
+.footer {
+  background-color: var(--dark);
+  color: #d9d9d9;
+  border-top: 4px solid var(--orange);
+}
+
+.columns {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.4fr;
+  gap: 2rem;
+}
+
+.brand {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: white;
+}
+
+.brand span {
+  color: var(--orange);
+}
+
+.about {
+  margin-top: 0.75rem;
+  max-width: 320px;
+  line-height: 1.6;
+  color: #a8a8a8;
+}
+
+.columns h3 {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.columns ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  color: #a8a8a8;
+}
+
+.columns ul a:hover {
+  color: var(--orange);
+}
+
+.columns ul svg {
+  color: var(--orange);
+  margin-right: 0.4rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem max(1.25rem, calc((100% - 1280px) / 2 + 1.25rem));
+  background-color: var(--darker);
+  font-size: 0.85rem;
+  color: #8a8a8a;
+}
+
+.bottom svg {
+  color: var(--orange);
+  margin-right: 0.3rem;
+}
+
+@media (max-width: 800px) {
+  .columns {
+    grid-template-columns: 1fr 1fr;
+  }
+}
